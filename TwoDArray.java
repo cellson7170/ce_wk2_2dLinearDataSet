@@ -2,7 +2,6 @@ package cs260_wk3_twoDArray;
 
 /** This class creates a 2D array and fills it to make
  *  a picture of a triangle and glass
- * @author Chris Ellson
  */
 public class TwoDArray {
 	
@@ -20,7 +19,7 @@ public class TwoDArray {
 	}
 	
 	/**
-	 * fills triangle into 2D array
+	 * Fills triangle into 2D array
 	 */
 	private void fillTriangle() {				
 		for(int r = 0; r < arr.length; r++) {			
@@ -36,7 +35,7 @@ public class TwoDArray {
 	}
 	
 	/**
-	 * fills glass into 2D array
+	 * Fills glass into 2D array
 	 */
 	private void fillGlass() {							
 		for(int r = 0; r < arr.length; r++) {			
@@ -64,7 +63,7 @@ public class TwoDArray {
 	}
 	
 	/**
-	 * prints 2D array to console
+	 * Prints 2D array to console
 	 */
 	public void printArray() {
 		for(int r = 0; r < arr.length; r++) {
